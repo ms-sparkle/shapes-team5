@@ -18,7 +18,9 @@ function setup() {
 
 function draw() {
   background(backgroundColor);
-  
+  stroke(0);
+  textSize(25);
+  text('Test 42', 200, 50);
   noStroke();
   
   fill('#9AFEC1')
